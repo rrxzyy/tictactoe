@@ -17,7 +17,7 @@ const GameInfo = ({ playerWinner, isXTurn, onReset }) => {
           <h2 className='font-light lg:mb-6 mb-4'>Next Player : <span className="font-bold">
             {isXTurn ? 'X' : 'O'}</span></h2>
         )}
-        <Button variant="green" onClick={handleResetGame}>Start Over</Button>
+        <Button onClick={handleResetGame}>Start Over</Button>
       </div>
     </>
   )
